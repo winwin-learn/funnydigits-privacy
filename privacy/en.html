@@ -9,6 +9,7 @@
     body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; padding: 20px; background: #f8f9fa; color: #333; }
     h1 { color: #2575fc; text-align: center; }
     h2 { color: #6a11cb; border-bottom: 2px solid #6a11cb; padding-bottom: 5px; margin-top: 25px; }
+    h3 { color: #2575fc; margin-top: 20px; }
     .contact { margin-top: 30px; font-weight: bold; text-align: center; background: #fff; padding: 15px; border-radius: 8px; border: 1px solid #ddd; }
     .footer { margin-top: 40px; text-align: center; font-size: 0.8em; color: #888; }
   </style>
@@ -16,11 +17,21 @@
 <body>
 
   <h1>FunnyDigits Legal Information</h1>
-  <p style="text-align:center;"><em>Last updated: May 31, 2026</em></p>
+  <p style="text-align:center;"><em>Last updated: July 31, 2026</em></p>
 
   <h2>Privacy Policy</h2>
   <p><strong>FunnyDigits</strong> is an educational app designed for children to learn numbers. We respect user privacy deeply. <strong>We do not automatically collect, track, or store personal information</strong> (names, emails, or locations). Digit drawing data is processed locally on your device.</p>
   <p><strong>Optional Feedback:</strong> If a user manually reports an issue, a single image of the drawn digit may be sent to our Firebase servers for model improvement. This is strictly user-initiated, anonymized, and requires explicit consent.</p>
+  
+  <h3>Data Retention & Deletion Policy</h3>
+  <p>In accordance with data minimization principles, anonymized operational logs and reports generated to improve app performance and AI accuracy are automatically deleted after specified periods using secure server mechanisms (such as Firestore TTL):</p>
+  <ul>
+    <li><strong>Prediction Logs:</strong> Stored for a maximum of 90 days.</li>
+    <li><strong>Daily Reports:</strong> Retained for 30 days.</li>
+    <li><strong>Weekly Reports:</strong> Retained for 90 days.</li>
+    <li><strong>Stats Summary:</strong> Archived for up to 12 months.</li>
+  </ul>
+
   <p><strong>Compliance:</strong> The app is designed for children under 13 and fully complies with <strong>COPPA</strong> (Children's Online Privacy Protection Act) and <strong>GDPR-K</strong> regulations. No personal data is harvested from children.</p>
 
   <h2>Terms of Use</h2>
